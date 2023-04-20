@@ -1,0 +1,26 @@
+package spring5fs.book.spring;
+
+public class AuthInfo {
+
+    private final Long id;
+    private final String email;
+    private final String name;
+
+    public AuthInfo(final Long id, final String email, final String name) {
+        this.id = id;
+        this.email = email;
+        this.name = name;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
